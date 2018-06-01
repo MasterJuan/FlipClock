@@ -3026,3 +3026,30 @@ var FlipClock;
 	FlipClock.Lang['zh-tw']   = FlipClock.Lang.TraditionalChinese;
 
 }(jQuery));
+(function($) {
+		
+	/**
+	 * FlipClock Traditional Chinese Language Pack
+	 *
+	 * This class will used to translate tokens into the Traditional Chinese.
+	 *	
+	 */
+	 
+	FlipClock.Lang.Greek = {
+		
+		'years'   : 'Χρόνια',
+		'months'  : 'Μήνες',
+		'days'    : 'Μέρες',
+		'hours'   : 'Ώρες',
+		'minutes' : 'Λεπτά',
+		'seconds' : 'Δευτερόλεπτα'
+
+	};
+	
+	/* Create various aliases for convenience */
+
+	FlipClock.Lang['el']   = FlipClock.Lang.Greek;
+	FlipClock.Lang['gr']   = FlipClock.Lang.Greek;
+	FlipClock.Lang['el_Gr']   = FlipClock.Lang.Greek;
+
+}(jQuery));
